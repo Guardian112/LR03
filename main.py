@@ -8,7 +8,7 @@ def x2(x):
 def x3_1(x):
     x = x*3+1
     list.append(int(x))
-    return collatz(x)
+    x3return collatz(x)
 def collatz():
     pass #Саня
 
