@@ -1,7 +1,14 @@
 list=[]
 
 def input_num():
-    pass
+    x = float(input())
+    if x % 1 == 0:
+        if x > 1:
+            collatz(x)
+        else:
+            input_num()
+    else:
+        input_num()
 
 def x2(x):
     pass
