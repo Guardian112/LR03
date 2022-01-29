@@ -13,7 +13,12 @@ def x3_1(x):
     list.append(int(x))
     return collatz(x)
   
-def collatz():
-    pass #Саня
-
+def collatz(x):
+    while x != 1:
+        if x % 2 == 0:
+            return x2(x)
+        else:
+            return x3_1(x)
+    print("Список:", list)
+    
 input_num()
