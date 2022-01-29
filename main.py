@@ -4,7 +4,9 @@ def input_num():
     pass #я
 
 def x2(x):
-    pass #я
+    x = x / 2
+    list.append(int(x))
+    return collatz(x)
 def x3_1():
     pass #Саня
 def collatz():
