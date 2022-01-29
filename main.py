@@ -15,5 +15,5 @@ def collatz(x):
             return x2(x)
         else:
             return x3_1(x)
-    print('Список:', list)
+    print("Список:", list)
 input_num()
